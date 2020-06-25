@@ -1,5 +1,7 @@
 #include <string.h>
+
 void func(void);
+
 typedef struct sDATA {
         int m_List[14][2];
         int m_Cursor;
