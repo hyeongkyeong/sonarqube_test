@@ -1,4 +1,5 @@
 #include <string.h>
+#include <stdio.h>
 void func(void);
 typedef struct sDATA {
         int m_List[14][2];
@@ -6,6 +7,11 @@ typedef struct sDATA {
 } DATA;
 DATA g_A;
 int main() {
+        float a=1.0f;
+	float b=1.2f;
+	if(a!=b){
+		printf("a is greater than b");
+	}
         while(1){
                func();
         }
